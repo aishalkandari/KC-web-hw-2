@@ -7,7 +7,7 @@ body {
     background-size: auto ;
     background-color: #14213d;
     height: 100% ;
-    width:99.2%;
+    width:100%;
     
     
     }
@@ -26,7 +26,7 @@ body {
 
 #Comedy {
 
-    text-align: center;
+      text-align: center;
     margin-top: 2%;
     font-family: 'Righteous', cursive;
     color: #fff;
@@ -541,6 +541,65 @@ padding: 20px 8;
        }    
 
 
+.alien {
+
+  display: flex;
+  position: relative;
+justify-content: center;
+align-items: center;
+background-color: #6e945f;
+border-radius: 50% 50% 50% 15%;
+width: 100px;
+height: 100px;
+transform: rotate(-45deg);
+outline:  4px solid white;
+margin:  2.1% 17.5%;
 
 
+
+
+
+}
+
+.face {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+transform: rotate(45deg) translateY(25%);
+
+}
   
+.eyes {
+
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.eyes>div{
+
+background: #000;
+width: 30px;
+height: 30px;
+border-radius: 5% 100%;
+transform: rotateZ(-7deg);
+
+}
+
+.eyes>div:last-child{
+transform: rotateX(180deg) rotateZ(-7deg);
+
+}
+.smile{
+
+border: none;
+border-bottom: 25px solid;
+width: 20px;
+height: 10px;
+border-radius: 50%;
+margin-top: 5%;
+
+}
